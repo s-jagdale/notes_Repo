@@ -1,0 +1,14 @@
+{
+  "name": "cloud-notes-repository",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloud-Based Student Notes Repository - React + Node/Express + MongoDB Atlas + AWS S3",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "check": "npm run check --prefix server",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "import-s3": "npm run import-s3 --prefix server",
+    "test": "npm test --prefix server"
+  }
+}
